@@ -1,0 +1,44 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 16px 16px #bfbfbf;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  max-width: 800px;
+}
+
+.btn-text {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.ques-text {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.ans-text {
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .ques-text {
+    font-size: 40px;
+  }
+  .ans-text {
+    font-size: 40px;
+  }
+}
